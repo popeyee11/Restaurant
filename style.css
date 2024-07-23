@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-image: url(./images/cr3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+}
+.main::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 80vh;
+    top: 0;
+    left: 0;
+    background: rgba(47, 31, 31, 0.6);
+    z-index: 0;
+}
+nav{
+    text-align: center;
+    position: relative;
+}
+.logo img{
+    margin-top: 20px;
+    height: 25vh;
+}
+.box-2 ul{
+    display: flex;
+    text-decoration: none;
+    color: #3F2537;
+}
+.box-2 ul li{
+    padding: 0 40px;
+    display:flex;
+    /* text-decoration: none; */
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    /* color: #3F2537; */
+    font-style: normal;
+    font-size: x-large;
+    /* background-color: rgb(255, 255, 255); */
+}
+ul li a{
+    color: #fffafa;
+}
+.box-2 ul li:hover{
+    background-color: #ffefd5;
+    font-size: xx-large;
+}
+.nav-inner{
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+}
+button{
+    padding: 20px;
+    border-radius: 20px;
+    /* background: transparent; */
+    background-color: #006b3b;
+    color: white;
+    border: solid green 2px;
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+}
+button:hover{
+    padding: 25px;
+    background-color: #2e8b57;
+}
+/* sec-2 css  */
+
+.sec-2{
+    background-image: url(./images/bg1.jpg);
+    height: 80vh;
+    text-align: center;
+}
+.sec-2 h1{
+    text-align: center;
+    color: rgb(234, 106, 16);
+    font-weight: bolder;
+    /* padding: 90px; */
+    padding-top: 90px;
+    margin: auto;
+}
+.sec-2 h1 span{
+    /* background-color: white; */
+    color: #bf9428;
+}
+.content{
+    height: 250px;
+    width: 100%;
+    /* background-color: white; */
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.inner-content{
+    height: 190px;
+    width: 50%;
+    /* background-color: black; */
+    color: white;
+}
+/* sec second end here  */
+
+/* welcome section  */
+.welcome{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.image{
+    height: 100%;
+    width: 50%;
+    /* background-color: black; */
+}
+.wl-content{
+    height: 100%;
+    width: 50%;
+    /* background-color: red; */
+    text-align: center;
+}
+.wl-content h2{
+    text-decoration: underline;
+    font-family: "Futura PT";
+    color: #3F2537;
+    font-weight: 400;
+    margin-top: 60px;
+}
+.wl-content p{
+    font-family: "futura-pt";
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #3F2537;
+    margin-top: 40px;
+}
+.image img{
+    height: 500px;
+    /* width: 50%; */
+}
+
+/* welcome section 2 */
+.welcome-sec2{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.event-img{
+    height: 100%;
+    width: 50%;
+    /* background-color:black; */
+    text-align: center;
+}
+.event-content{
+    height: 100%;
+    width: 50%;
+    /* background-color: red; */
+}
+
+.event-content img{
+    height: 505px;
+}
+.event-img h2{
+    text-decoration: underline;
+    font-family: "Futura PT";
+    color: #3F2537;
+    font-weight: 400;
+    margin-top: 60px;
+}
+.event-img p{
+    font-family: "futura-pt";
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #3F2537;
+    margin-top: 40px;
+}
+
+/* sec last  */
+.pre-footer{
+    height: 75vh;
+    background-color:  #f5aa99;
+}
+.last{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    font-family: Roboto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 1em;
+    letter-spacing: .35em;
+    /* text-transform: uppercase; */
+    padding-top: 27px;
+}
+.season p{
+    font-family: Lora;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: .4px;
+    line-height: 1.6em;
+}
+.season span{
+    font-weight: 700;
+}
+em{
+    font-family: Lora;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: .4px;
+    line-height: 1.6em;
+}
+.add p{
+    font-family: Lora;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: .4px;
+    line-height: 1.6em;
+}
+.con p{
+    font-family: Lora;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: .4px;
+    line-height: 1.6em;
+}
+
+.end{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-top: 70px;
+}
+.right{
+    text-align: center;
+    font-family: Lora;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: .4px;
+    line-height: 1.6em;
+}
+.left{
+    text-align: center;
+}
+/* footer css  */
+
+footer{
+    height: 25vh;
+    background-color: #f59984;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -9,3 +9,5 @@ step 2: then Create a table Named "reserve".
 step 3: Set 6 column and set Name These Columns accordingly "name" , "email" , "mobile","count","date","time".
 step 4: Insert Values Into Table By Clicking On Insert option at top.
 step 5: Write a value into value Column (What you Wanna Reply when you enter Your Query) Save That Values In table.
+step 6: Create a folder name "Restaurant" in Xampp > htdocs folder and save this all files including images in this folder.
+step 7: Come to browser and for run website type localhost/Restaurant/index.php and go through the site.
